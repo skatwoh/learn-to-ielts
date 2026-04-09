@@ -50,3 +50,42 @@ export const tips = [
     date: '2024-05-15',
   },
 ];
+
+export const vocabulary = [
+  {
+    id: 'environment',
+    title: 'Environment',
+    titleVi: 'Môi trường',
+    icon: 'Leaf',
+    words: [
+      { word: 'Sustainability', definition: 'The ability to be maintained at a certain rate or level.', translation: 'Sự bền vững' },
+      { word: 'Pollution', definition: 'The presence in or introduction into the environment of a substance or thing that has harmful or poisonous effects.', translation: 'Ô nhiễm' },
+      { word: 'Biodiversity', definition: 'The variety of life in the world or in a particular habitat or ecosystem.', translation: 'Đa dạng sinh học' },
+      { word: 'Renewable', definition: 'A source of energy that is not depleted by use, such as water or solar power.', translation: 'Có thể tái tạo' },
+    ]
+  },
+  {
+    id: 'technology',
+    title: 'Technology',
+    titleVi: 'Công nghệ',
+    icon: 'Cpu',
+    words: [
+      { word: 'Innovation', definition: 'A new method, idea, product, etc.', translation: 'Sự đổi mới' },
+      { word: 'Automation', definition: 'The use of largely automatic equipment in a system of manufacturing or other production process.', translation: 'Tự động hóa' },
+      { word: 'Algorithm', definition: 'A process or set of rules to be followed in calculations or other problem-solving operations.', translation: 'Thuật toán' },
+      { word: 'Cybersecurity', definition: 'The state of being protected against the criminal or unauthorized use of electronic data.', translation: 'An ninh mạng' },
+    ]
+  },
+  {
+    id: 'education',
+    title: 'Education',
+    titleVi: 'Giáo dục',
+    icon: 'GraduationCap',
+    words: [
+      { word: 'Curriculum', definition: 'The subjects comprising a course of study in a school or college.', translation: 'Chương trình giảng dạy' },
+      { word: 'Pedagogy', definition: 'The method and practice of teaching.', translation: 'Sư phạm' },
+      { word: 'Literacy', definition: 'The ability to read and write.', translation: 'Biết chữ' },
+      { word: 'Assessment', definition: 'The evaluation or estimation of the nature, quality, or ability of someone or something.', translation: 'Đánh giá' },
+    ]
+  }
+];
